@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  webapp:
+    build:
+      context: "."
+      target: "builder"
+      args:
+        - "env=dev"
+    image: "nsidc/usaon-vta-visualizer:dev"
+    restart: "on-failure"
+    # Useful to skip linting errors and expose compiler errors:
+    # command: 'npm run serve:nolint'
+    ports:
+      # Webpack dev server and websocket for hot reload:
+      - "8080:8080"
+    volumes:
+      - "./src:/app/src:ro"
+      - "./index.html:/app/index.html:ro"
+      - "./public:/app/public:ro"
+      - "./.eslintrc.js:/app/.eslintrc.js:ro"

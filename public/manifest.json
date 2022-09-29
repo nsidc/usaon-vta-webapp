@@ -1,0 +1,9 @@
+{
+  "short_name": "US AON VTA Visualizer",
+  "name": "U.S. Arctic Observing Network Value Tree Analysis Visualizer",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
