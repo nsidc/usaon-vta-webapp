@@ -1,7 +1,7 @@
 <img alt="NSIDC logo" src="https://nsidc.org/themes/custom/nsidc/logo.svg" width="150" />
 
 
-# U.S. Arctic Observing Network VTA (Value Tree Analysis) Visualizer
+# U.S. Arctic Observing Network (AON) VTA (Value Tree Analysis) Visualizer
 
 The VTA Visualizer enables users to visualize Value Tree Analysis data.
 
