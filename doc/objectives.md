@@ -23,6 +23,7 @@ diagram](https://legacyaoos2.wpengine.com/wp-content/uploads/2021/01/VTA-example
    or user-uploaded, US AON is familiar with this representation); ??
    * Clarify needs with US AON 
 1. Where will this run? NSIDC?
+1. What needs are met and not met by the current demo? Maintainability?
 
 
 ## Things we want
