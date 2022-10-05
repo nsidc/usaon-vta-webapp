@@ -62,6 +62,7 @@ const TestComponent: React.FC = () => {
       name: 'VTA',
       type: 'sankey',
       allowPointSelect: true,
+      cursor: 'pointer',
       data: chartData,
     }],
   };
