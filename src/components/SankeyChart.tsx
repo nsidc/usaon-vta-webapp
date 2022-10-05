@@ -48,7 +48,7 @@ const TestComponent: React.FC = () => {
       description: 'Sankey plot of US AON Value Tree',
     },
     title: {
-      text: 'US AON Value Tree Analysis',
+      text: 'US AON Value Tree',
       style: {fontSize: '20px'},
     },
     tooltip: {
