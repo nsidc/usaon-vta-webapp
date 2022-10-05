@@ -45,7 +45,7 @@ const TestComponent: React.FC = () => {
       type: 'sankey',
     },
     accessibility: {
-      description: 'Sankey plot of US AON Value Tree Analysis',
+      description: 'Sankey plot of US AON Value Tree',
     },
     title: {
       text: 'US AON Value Tree Analysis',
