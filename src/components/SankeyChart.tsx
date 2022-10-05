@@ -62,6 +62,7 @@ const TestComponent: React.FC = () => {
     series: [{
       name: 'VTA',
       type: 'sankey',
+      allowPointSelect: true,
       data: chartData,
     }],
   };
