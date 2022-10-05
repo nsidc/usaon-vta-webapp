@@ -3,6 +3,8 @@ import {useRecoilValue} from 'recoil';
 
 import Highcharts from 'highcharts';
 import HighchartsAccessibility from 'highcharts/modules/accessibility';
+import HC_exporting from 'highcharts/modules/exporting';
+import HC_export_data from 'highcharts/modules/export-data';
 import sankey from 'highcharts/modules/sankey';
 import HighchartsReact from 'highcharts-react-official';
 
@@ -12,6 +14,8 @@ import {
 } from '../serverState/sheetData';
 
 HighchartsAccessibility(Highcharts);
+HC_exporting(Highcharts);
+HC_export_data(Highcharts);
 sankey(Highcharts);
 
 
