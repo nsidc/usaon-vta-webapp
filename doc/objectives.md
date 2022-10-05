@@ -28,8 +28,6 @@ diagram](https://legacyaoos2.wpengine.com/wp-content/uploads/2021/01/VTA-example
 
 ## Things we want
 
-* Ability to use user's own dataset instead of the US AON dataset (e.g. upload or link
-  to data)
 * Ability to save plot as image to local computer
 * Ability to click a node and highlight all dependents and dependencies (trace all
   connected flows to the left and to the right); should be toggleable so user can export
@@ -42,3 +40,5 @@ diagram](https://legacyaoos2.wpengine.com/wp-content/uploads/2021/01/VTA-example
 * Ability to move nodes and save their positions
 * Ability to edit node connections, values, and weights within the visualization and
   save changes
+* Ability to use user's own dataset instead of the US AON dataset (e.g. upload or link
+  to data)
