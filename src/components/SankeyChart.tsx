@@ -45,7 +45,6 @@ const TestComponent: React.FC = () => {
 
   const chartOptions: Highcharts.Options = {
     chart: {
-      height: '95%',
       type: 'sankey',
     },
     accessibility: {
