@@ -38,7 +38,7 @@ const TestComponent: React.FC = () => {
     return {
       from: edge.source,
       to: edge.target,
-      weight: 5,
+      weight: Number(edge.weight),
       custom: {},
     };
   });
