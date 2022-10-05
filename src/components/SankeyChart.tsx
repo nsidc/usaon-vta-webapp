@@ -50,6 +50,9 @@ const TestComponent: React.FC = () => {
     },
     accessibility: {
       description: 'Sankey plot of US AON Value Tree',
+      point: {
+        valueDescriptionFormat: '{index}. {point.from} to {point.to}, {point.weight}.',
+      }
     },
     title: {
       text: 'US AON Value Tree',
