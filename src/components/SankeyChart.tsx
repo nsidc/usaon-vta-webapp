@@ -56,7 +56,6 @@ const TestComponent: React.FC = () => {
       style: {fontSize: '20px'},
     },
     tooltip: {
-      shared: true,
       valueDecimals: 0,
     },
     series: [{
