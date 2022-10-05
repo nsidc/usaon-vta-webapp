@@ -5,10 +5,10 @@ import {sheetUrl} from '../sheet';
 
 
 // TODO: fix any
-export const fetchSheetData = (
+export const fetchSheetData = <T>(
   sheet_id: string,
   node_id: string,
-): Promise<object> => {
+): Promise<T[]> => {
   const url = sheetUrl(sheet_id, node_id);
   return fetchUrl(url)
     .then((response) => response.text() as Promise<string>)
