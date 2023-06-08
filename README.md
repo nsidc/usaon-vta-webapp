@@ -3,7 +3,7 @@
 
 # U.S. Arctic Observing Network (AON) VTA (Value Tree Analysis) Visualizer
 
-The VTA Visualizer enables users to visualize Value Tree Analysis data.
+The VTA Visualizer enables users to visualize Value Tree Analysis data. NOTE: This is an earlier prototype and does not need to be used right now. 
 
 
 ## Level of Support
