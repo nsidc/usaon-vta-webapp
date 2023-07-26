@@ -3,6 +3,8 @@
 
 # U.S. Arctic Observing Network (AON) VTA (Value Tree Analysis) Visualizer
 
+> :warning: This repository was a research spike, and is not intended for use.
+
 The VTA Visualizer enables users to visualize Value Tree Analysis data. NOTE: This is an earlier prototype and does not need to be used right now. 
 
 
